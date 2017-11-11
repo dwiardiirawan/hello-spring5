@@ -32,8 +32,6 @@ repositories {
 
 dependencies {
     // tag::jetty[]
-    compile("org.springframework.boot:spring-boot-starter-web:2.0.0.BUILD-SNAPSHOT") {
-        exclude module: "spring-boot-starter-tomcat"
-    }
+    compile("org.springframework.boot:spring-boot-starter-web:2.0.0.BUILD-SNAPSHOT")
 
 }
